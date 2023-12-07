@@ -1,0 +1,51 @@
+#callBtn, #videoBtn, #voiceBtn, #imageBtn, #sendBtn, #messageText {
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border: none;
+}
+
+#callBtn {
+    -fx-background-image: url('../images/call.png');
+}
+
+#videoBtn {
+    -fx-background-image: url('../images/video.png');
+}
+
+#voiceBtn {
+    -fx-background-image: url('../images/voice.png');
+}
+
+#imageBtn {
+    -fx-background-image: url('../images/image.png');
+}
+
+#sendBtn {
+    -fx-background-image: url('../images/send.png');
+}
+
+#chatbox {
+    -fx-background-color: rgb(230, 230, 230);
+}
+
+#client, #server {
+    -fx-font-size: 16px;
+    -fx-padding: 3 3 3 10;
+    -fx-margin: 5;
+    -fx-width: auto;
+    -fx-max-width: 275;
+    -fx-background-radius: 30px;
+    -fx-border: none;
+    -fx-text-fill: white;
+}
+
+#client {
+    -fx-background-color: rgb(17, 100, 127);
+}
+
+#server {
+    -fx-background-color: rgb(193, 122, 134);
+}
